@@ -7,7 +7,7 @@ The project compares different methods:
 
 - Genetic Algorithm (GA)
 - Greedy Algorithm
-- Main integrated implementation
+- Hybrid Greedy-Genetic Algorithm
 
 The optimization considers vessel geometry configuration and allocation strategies for container placement.
 
@@ -16,15 +16,26 @@ The optimization considers vessel geometry configuration and allocation strategi
 ## Repository Structure
 
 ```text
-├── GA aja.py
-├── Greedy aja.py
-├── Source_Code_KP_clean.py
+├── container_stowage_greedy.py
+├── container_stowage_ga.py
+├── container_stowage_hybrid_greedy-ga.py
 ├── README.md
 ```
 
 ### File Description
 
-#### `GA aja.py`
+#### `container_stowage_greedy.py`
+Implementation of a Greedy-based container allocation approach.
+
+Features:
+- Sequential decision making
+- Fast execution
+- Lower computational cost
+- Baseline comparison method
+
+---
+
+#### `container_stowage_ga.py`
 Implementation of the container stowage optimization using Genetic Algorithm.
 
 Features:
@@ -38,18 +49,7 @@ Features:
 
 ---
 
-#### `Greedy aja.py`
-Implementation of a Greedy-based container allocation approach.
-
-Features:
-- Sequential decision making
-- Fast execution
-- Lower computational cost
-- Baseline comparison method
-
----
-
-#### `Source_Code_KP_clean.py`
+#### `container_stowage_hybrid_greedy-ga.py`
 Main cleaned and integrated source code for the project.
 
 Features:
@@ -104,22 +104,22 @@ sys
 
 ## How to Run
 
-Run Genetic Algorithm:
-
-```bash
-python "GA aja.py"
-```
-
 Run Greedy Algorithm:
 
 ```bash
-python "Greedy aja.py"
+python "container_stowage_greedy,py"
+```
+
+Run Genetic Algorithm:
+
+```bash
+python "container_stowage_ga.py"
 ```
 
 Run Main Program:
 
 ```bash
-python "Source_Code_KP_clean.py"
+python "container_stowage_hybrid_greedy-ga.py"
 ```
 
 ---
