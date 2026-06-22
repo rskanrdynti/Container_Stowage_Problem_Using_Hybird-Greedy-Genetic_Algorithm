@@ -769,7 +769,7 @@ if __name__ == "__main__":
         ship_tmplt.slot_map[(b, r, t)] = len(ship_tmplt.slots) - 1
 
     # 2. Input Excel
-    path_excel = "500 - beda 5 mix new.xlsx"
+    path_excel = "data_container.xlsx"
     print(color(f"  [READ] Membaca file: {os.path.basename(path_excel)}", "36"))
     df_in = pd.read_excel(path_excel)
     all_conts = [Container(r.iloc[1], r.iloc[2]) for _, r in df_in.iterrows() if not pd.isna(r.iloc[2])]
