@@ -24,6 +24,11 @@ File:
 ## Repository Structure
 
 ```text
+Container-Stowage-Optimization/
+│
+├── data/
+│   └── container_data.xlsx
+|
 ├── container_stowage_greedy.py
 ├── container_stowage_ga.py
 ├── container_stowage_hybrid_greedy-ga.py
