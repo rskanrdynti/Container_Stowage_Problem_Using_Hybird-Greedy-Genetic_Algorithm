@@ -1,4 +1,4 @@
-# Container Stowage Optimization using Genetic Algorithm and Greedy Algorithm
+# Container Stowage Optimization using Hybrid Greedy-Genetic Algorithm
 
 ## Project Overview
 This repository contains implementations of container stowage optimization for vessel loading using multiple optimization approaches. The objective is to determine an efficient arrangement of containers within ship slots while satisfying operational constraints and improving loading quality.
