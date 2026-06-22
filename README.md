@@ -5,13 +5,21 @@ This repository contains implementations of container stowage optimization for v
 
 The project compares different methods:
 
-- Genetic Algorithm (GA)
 - Greedy Algorithm
+- Genetic Algorithm (GA)
 - Hybrid Greedy-Genetic Algorithm
 
 The optimization considers vessel geometry configuration and allocation strategies for container placement.
 
 ---
+
+## Dataset
+
+The project uses a single dataset stored in the `data/` folder.
+
+File:
+
+- `container_data.xlsx` → Input data used for container stowage optimization
 
 ## Repository Structure
 
